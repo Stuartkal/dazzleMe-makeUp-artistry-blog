@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.portfolio-main {
+	width: 100%;
+	margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h3 {
+		font-family: 'Montaga', serif;
+		font-weight: 400;
+	}
+}
+
+.loading {
+	margin-top: 10rem;
+	color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+}
+
+.portfolio {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
+	flex-wrap: wrap;
+}
+
+.img {
+	width: 100%;
+}
+
+.caption {
+	width: 320px;
+	background: rgba(250, 31, 221, 0.438);
+	height: 70px;
+	position: absolute;
+	transform: translatey(100%);
+	visibility: hidden;
+	transition: all 0.3s linear;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 5px;
+
+	h3 {
+		// visibility: hidden;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	transition: all 0.3s linear;
+	width: 300px;
+	margin-bottom: 1rem;
+	padding: 10px;
+	// h3 {
+	// 	// visibility: hidden;
+	// 	// color: rgba(0, 0, 0, 0.5);
+	// 	font-family: 'Montaga', serif;
+	// }
+	&:hover {
+		width: 350px;
+		box-shadow: 0px 10px 20px rgba(250, 31, 221, 0.438);
+
+		// h3 {
+		// 	visibility: visible;
+		// }
+
+		.caption {
+			visibility: visible;
+		}
+	}
+}
+
+.about {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	// line-height: 5px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	h1 {
+		font-family: 'Montaga', serif;
+		font-weight: 400;
+	}
+
+	h2 {
+		font-family: 'PT Serif', serif;
+		font-weight: 500;
+		margin-bottom: 1rem;
+	}
+
+	h3 {
+		font-family: 'Montaga', serif;
+		font-weight: 500;
+	}
+
+	p {
+		font-family: 'Montaga', serif;
+		// line-height: 5px;
+	}
+}
+
+.separator {
+	width: 9%;
+	height: 1px;
+	margin-bottom: 1rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		h1 {
+			font-size: 25px;
+		}
+
+		.separator {
+			width: 18%;
+		}
+
+		h2 {
+			font-size: 20px;
+		}
+
+		p {
+			text-align: center;
+		}
+	}
+}

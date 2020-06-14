@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+.video-main {
+	width: 100%;
+	margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h3 {
+		font-family: 'Montaga', serif;
+		font-weight: 400;
+	}
+}
+
+.video {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1rem;
+	flex-wrap: wrap;
+}
+
+.vid {
+	margin-bottom: 2rem;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	line-height: 0px;
+	height: 50px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+	p {
+		font-family: 'Montaga', serif;
+	}
+}
+
+.footer-main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
+	a {
+		text-decoration: none;
+		color: black;
+		margin-left: 0.5rem;
+	}
+}
