@@ -1,6 +1,7 @@
 import React from 'react';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 import './Navbar.scss';
 const Footer = () => {
@@ -15,6 +16,9 @@ const Footer = () => {
 				</a>
 				<a href="https://www.instagram.com/dazzle_me_makeup/" target="blank">
 					<InstagramIcon />
+				</a>
+				<a href="https://www.youtube.com/channel/UCLWal0w_tzRYls0AhOLq51Q" target="blank">
+					<YouTubeIcon />
 				</a>
 			</div>
 			<p>Copyright&#xa9; &middot; DazzleMe MakeUp Artistry, 2020 &middot; All rights reserved</p>
